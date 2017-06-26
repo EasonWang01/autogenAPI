@@ -1,0 +1,30 @@
+{
+  "name": "autogenapi",
+  "version": "0.3.6",
+  "description": "Write comments inside code then generate API doc in one command.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index ./example/api.js",
+    "publish": "rm -rf ./API-doc; npm publish;"
+  },
+  "bin": {
+    "gendoc": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EasonWang01/autogenAPI.git"
+  },
+  "keywords": [
+    "gendoc"
+  ],
+  "author": "yicheng wang",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/EasonWang01/autogenAPI/issues"
+  },
+  "homepage": "https://github.com/EasonWang01/autogenAPI#readme",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "opn": "^5.1.0"
+  }
+}
